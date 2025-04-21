@@ -3,7 +3,7 @@
 This repository implements pricing algorithms for **American options** using:
 - **Longstaff-Schwartz algorithm (LS)** with **regression-based approximation**.
 - **Broadie-Andersen method** for resimulating paths after stopping.
-- **Neural Networks (FNN)** as an alternative to the regression approach.
+- **Neural Networks (FNNs)** as an alternative to the regression approach.
 
 ## Features
 
