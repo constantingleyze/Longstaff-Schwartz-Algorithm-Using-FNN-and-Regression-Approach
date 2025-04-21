@@ -7,7 +7,6 @@ This repository implements pricing algorithms for **American options** using:
 
 ## Features
 
-- **Option Types**: Supports both **call** and **put** options.
 - **Methods**: 
   - **LS (Least Squares)**: Uses linear regression for continuation value approximation.
   - **FNN (Feedforward Neural Networks)**: Replaces regression with a neural network.
