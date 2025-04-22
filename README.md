@@ -1,4 +1,4 @@
-# American Option Pricing with Longstaff-Schwartz & Broadie-Anderson
+# American Option Pricing with Longstaff-Schwartz & Broadie-Andersen
 
 This repository implements pricing algorithms for **American options** using:
 - **Longstaff-Schwartz algorithm (LS)** with **regression-based approximation**.
