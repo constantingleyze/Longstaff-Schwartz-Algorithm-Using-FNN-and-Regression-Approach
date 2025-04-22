@@ -1,8 +1,9 @@
 # American Option Pricing with Longstaff-Schwartz & Broadie-Andersen
 
-This repository implements pricing algorithms for **American options** using:
-- **Longstaff-Schwartz algorithm (LS)** with **regression-based approximation**.
-- **Broadie-Andersen method** for resimulating paths after stopping.
+This repository implements pricing algorithms for **American options** using :
+- **Longstaff-Schwartz algorithm (LS)** for the Primal Problem (lower bound).
+- **Broadie-Andersen method** for the Dual Probel (upper bound).
+- **Regression-based approximation**
 - **Neural Networks (FNNs)** as an alternative to the regression approach.
 
 ## Features
@@ -10,7 +11,6 @@ This repository implements pricing algorithms for **American options** using:
 - **Methods**: 
   - **LS (Least Squares)**: Uses linear regression for continuation value approximation.
   - **FNN (Feedforward Neural Networks)**: Replaces regression with a neural network.
-  - **Broadie-Andersen**: Resimulates paths after the optimal stopping point for more accurate pricing.
 - **Visualizations**: Plots **optimal exercise trajectories**, and compares **continuation values** vs **payoffs**.
 
 ### **Important Note**
