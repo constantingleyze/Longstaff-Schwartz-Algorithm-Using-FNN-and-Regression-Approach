@@ -7,11 +7,6 @@ This repository implements pricing algorithms for **American options** using :
 - **Longstaff-Schwartz algorithm (LS)** for the Primal Problem (lower bound).
 - **Broadie-Andersen algorithm** for the Dual Problem (upper bound).
 
-## Methods
-
-- **Regression-based approximation**
-- **Neural Networks (FNNs)** as an alternative to the regression approach.
-
 ## Features
 
 - **Methods**: 
